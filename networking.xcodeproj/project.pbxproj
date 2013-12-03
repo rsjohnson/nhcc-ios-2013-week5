@@ -21,6 +21,7 @@
 		94DD6B26184431B100E939A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD6B08184431B000E939A1 /* UIKit.framework */; };
 		94DD6B2E184431B100E939A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94DD6B2C184431B100E939A1 /* InfoPlist.strings */; };
 		94DD6B30184431B100E939A1 /* networkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DD6B2F184431B100E939A1 /* networkingTests.m */; };
+		94DD6B3B184431C400E939A1 /* NHNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DD6B3A184431C400E939A1 /* NHNetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		94DD6B2B184431B100E939A1 /* networkingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "networkingTests-Info.plist"; sourceTree = "<group>"; };
 		94DD6B2D184431B100E939A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94DD6B2F184431B100E939A1 /* networkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = networkingTests.m; sourceTree = "<group>"; };
+		94DD6B39184431C400E939A1 /* NHNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHNetworkManager.h; sourceTree = "<group>"; };
+		94DD6B3A184431C400E939A1 /* NHNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHNetworkManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		94DD6AF8184431B000E939A1 = {
 			isa = PBXGroup;
 			children = (
+				94DD6B39184431C400E939A1 /* NHNetworkManager.h */,
+				94DD6B3A184431C400E939A1 /* NHNetworkManager.m */,
 				94DD6B0A184431B000E939A1 /* networking */,
 				94DD6B29184431B100E939A1 /* networkingTests */,
 				94DD6B03184431B000E939A1 /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94DD6B3B184431C400E939A1 /* NHNetworkManager.m in Sources */,
 				94DD6B1B184431B000E939A1 /* NHViewController.m in Sources */,
 				94DD6B15184431B000E939A1 /* NHAppDelegate.m in Sources */,
 				94DD6B11184431B000E939A1 /* main.m in Sources */,
